@@ -1,0 +1,252 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Nav Links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+/* Nav Link Styling */
+.nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Theme Button */
+.theme {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about h1 {
+    font-size: 32px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid;
+}
+
+#contact {
+    margin: 40px 0;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* DARK THEME */
+.dark-theme {
+    background-color: #0F0A0A;
+    color: #F1F2F6;
+}
+
+.dark-theme nav.navbar {
+    background-color: #FF8600;
+}
+
+.dark-theme .nav-links li a {
+    color: #0F0A0A;
+}
+
+.dark-theme .nav-links li a:hover {
+    color: #758BFD;
+}
+
+.dark-theme #about h1,
+.dark-theme section h2,
+.dark-theme #contact h2 {
+    color: #FF8600;
+}
+
+.dark-theme #about h3,
+.dark-theme a,
+.dark-theme footer,
+.dark-theme .contact-info a {
+    color: #AEB8FE;
+}
+
+.dark-theme a:hover {
+    color: #758BFD;
+}
+
+.dark-theme #about img {
+    border: 3px solid #AEB8FE;
+}
+
+.dark-theme footer {
+    border-top-color: #758BFD;
+}
+
+.dark-theme .contact-form input,
+.dark-theme .contact-form textarea {
+    background-color: #1f1f1f;
+    color: #F1F2F6;
+}
+
+.dark-theme .contact-form input:focus,
+.dark-theme .contact-form textarea:focus {
+    outline-color: #FF8600;
+}
+
+.dark-theme .contact-form button,
+.dark-theme .theme {
+    background-color: #FF8600;
+    color: #0F0A0A;
+}
+
+.dark-theme .contact-form button:hover,
+.dark-theme .theme:hover {
+    background-color: #AEB8FE;
+    color: #0F0A0A;
+}
+
+/* LIGHT THEME */
+.light-theme {
+    background-color: #F1F2F6;
+    color: #0F0A0A;
+}
+
+.light-theme nav.navbar {
+    background-color: #AEB8FE;
+}
+
+.light-theme .nav-links li a {
+    color: #0F0A0A;
+}
+
+.light-theme .nav-links li a:hover {
+    color: #FF8600;
+}
+
+.light-theme #about h1,
+.light-theme section h2,
+.light-theme #contact h2 {
+    color: #758BFD;
+}
+
+.light-theme #about h3,
+.light-theme a,
+.light-theme footer,
+.light-theme .contact-info a {
+    color: #0F0A0A;
+}
+
+.light-theme a:hover {
+    color: #FF8600;
+}
+
+.light-theme #about img {
+    border: 3px solid #758BFD;
+}
+
+.light-theme footer {
+    border-top-color: #FF8600;
+}
+
+.light-theme .contact-form input,
+.light-theme .contact-form textarea {
+    background-color: #fff;
+    color: #0F0A0A;
+}
+
+.light-theme .contact-form input:focus,
+.light-theme .contact-form textarea:focus {
+    outline-color: #758BFD;
+}
+
+.light-theme .contact-form button,
+.light-theme .theme {
+    background-color: #758BFD;
+    color: #fff;
+}
+
+.light-theme .contact-form button:hover,
+.light-theme .theme:hover {
+    background-color: #FF8600;
+    color: #0F0A0A;
+}
