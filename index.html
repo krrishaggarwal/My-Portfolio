@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krrish Aggarwal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body class="dark-theme">
+    <main class="container">
+
+        <header>
+            <nav class="navbar">
+                <div class="navbar-content">
+                    <h2 class="logo">Krrish Aggarwal</h2>
+                    <ul class="nav-links" id="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-controls">
+                        <button class="theme-toggle-btn" aria-label="Toggle dark and light theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button class="menu-toggle-btn" aria-label="Toggle navigation menu">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="about" class="hero section-padding">
+            <div class="hero-text">
+                <p class="greeting">Hello, my name is</p>
+                <h1>Krrish Aggarwal</h1>
+                <h3 class="role">Full-Stack Web Developer (MERN)</h3>
+                <p class="bio">
+                    I am a BCA student at JIMS Rohini (2023–2026).
+                    I build responsive websites and scalable web apps using modern technologies.
+                    Interested in Web Development & AI.
+                </p>
+                <div class="hero-actions">
+                    <a href="resume.pdf" class="btn primary-btn" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="me.svg" alt="Krrish Aggarwal Profile Picture" />
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-react"></i> React.js</div>
+                <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="skill-item"><i class="fas fa-server"></i> Express.js</div>
+                <div class="skill-item"><i class="fas fa-database"></i> MongoDB</div>
+                <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+                <div class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+            </div>
+        </section>
+
+        <section id="education" class="section-padding">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>BCA (Bachelor of Computer Applications)</h3>
+                    <p class="institution"><i class="fas fa-school"></i> JIMS Rohini</p>
+                    <p class="duration">2023 – 2026</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Higher Secondary (12th Grade)</h3>
+                    <p class="institution"><i class="fas fa-school"></i> V.S.P.K International School | CBSE</p>
+                    <p class="duration">Completed 2023</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Secondary (10th Grade)</h3>
+                    <p class="institution"><i class="fas fa-school"></i> V.S.P.K International School | CBSE</p>
+                    <p class="duration">Completed 2021</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="project1.png" alt="Random Number Game Screenshot" loading="lazy" />
+                    <div class="card-content">
+                        <h3>Random Number Guessing Game</h3>
+                        <p>A simple game built using HTML, CSS, and vanilla JavaScript where users guess the correct
+                            number.</p>
+                        <div class="project-links">
+                            <a href="https://krrishaggarwal.github.io/RandomNoGame/" target="_blank"
+                                class="btn link-btn">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/krrishaggarwal/RandomNoGame" target="_blank"
+                                class="btn link-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="project2.png" alt="To Do List Screenshot" loading="lazy" />
+                    <div class="card-content">
+                        <h3>To-Do List App</h3>
+                        <p>A task management app with add, remove, and local storage features built using JavaScript.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://krrishaggarwal.github.io/To-do-List/" target="_blank" class="btn link-btn">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/krrishaggarwal/To-do-List" target="_blank" class="btn link-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card coming-soon">
+                    <img src="project3.png" alt="E-commerce Screenshot" loading="lazy" />
+                    <div class="card-content">
+                        <h3>E-Commerce Web App (MERN)</h3>
+                        <p>A full-stack MERN app with product listings, user authentication, and shopping cart
+                            functionality. (In Progress)</p>
+                        <div class="project-links">
+                            <a href="#" class="btn link-btn disabled">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="#" class="btn link-btn disabled">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="experience" class="section-padding">
+            <h2 class="section-title">Experience & Goals</h2>
+            <div class="experience-content">
+                <p>I am actively seeking **internships** and **freelance opportunities** to apply my MERN stack
+                    development skills in a professional environment and contribute to real-world projects.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a
+                            href="mailto:AggarwalKrrish04@gmail.com">AggarwalKrrish04@gmail.com</a></p>
+                    <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> +91-8929208275</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Delhi, India</p>
+                    <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a
+                            href="https://github.com/krrishaggarwal" target="_blank">krrishaggarwal</a></p>
+                    <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a
+                            href="https://www.linkedin.com/in/krrish-aggarwal-b27971199/"
+                            target="_blank">krrish-aggarwal</a></p>
+                </div>
+
+                <form class="contact-form" action="https://formspree.io/f/xeorkwzj" method="POST">
+                    <h3>Send a Message</h3>
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-note">Uses Formspree for submission.</p>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div class="copyright">
+                <p>© 2025 Krrish Aggarwal | All rights reserved.</p>
+            </div>
+        </section>
+
+    </main>
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
