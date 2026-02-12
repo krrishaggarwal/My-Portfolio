@@ -1,4 +1,3 @@
-/* Deepseek */
 /* ========================
    1. Base & Reset - Modern Dark Theme
    ======================== */
@@ -639,4 +638,5 @@ a:hover {
     .timeline-item::before {
         left: -1.5rem;
     }
+
 }
